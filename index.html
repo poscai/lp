@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Página Única | Lançamento de Produto</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <header class="gradient">
+        <!-- ANIMAÇÃO -->
+        <h1 class="ml11">
+            <span class="text-wrapper">
+                <span class="line line1"></span>
+                <span class="letters">Poscai</span>
+            </span>
+        </h1>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <img src="images/banner.png" width="100%" height="" alt="banner">
+    </header>
+
+    <div class="container">
+
+        <section id="home">
+            <h2>Home</h2>
+            <p>Conteúdo da seção Home.</p>
+            <p>Escrever um artigo de sucesso pode parecer uma tarefa desafiadora para iniciantes, mas com as ferramentas
+                certas e um pouco de prática, é definitivamente possível. Neste guia completo, vamos explorar algumas
+                dicas essenciais para ajudá-lo a criar um conteúdo engajador e bem estruturado.</p>
+            <p>Antes de começar a escrever, é crucial identificar as palavras-chave relevantes para o seu artigo.
+                Utilize ferramentas como o Google Keyword Planner para encontrar termos que tenham um bom volume de
+                busca e que sejam relevantes para o seu nicho.</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Conteúdo da seção Sobre.</p>
+            <p>Agora que você aprendeu algumas dicas essenciais para escrever um artigo de sucesso, está na hora de
+                colocar em prática! Dedique um tempo para praticar sua escrita e não tenha medo de experimentar novas
+                técnicas. Lembre-se sempre de revisar e editar o seu conteúdo antes de publicá-lo. Boa escrita!</p>
+            <p>Este guia foi elaborado para ajudá-lo a iniciar sua jornada como escritor de artigos de sucesso. Com um
+                pouco de prática e determinação, você se tornará um redator experiente em pouco tempo. Se tiver alguma
+                dúvida ou precisar de auxílio adicional, não hesite em nos contatar. Estamos aqui para ajudá-lo a
+                alcançar seus objetivos de escrita.</p>
+            <h1>A Importância de Incorporar Hábitos Saudáveis na Rotina Diária</h1>
+            <p>Em meio ao agitado cotidiano que levamos, é fundamental lembrarmos da importância de incorporar hábitos
+                saudáveis em nossa rotina diária. Seja na alimentação, no sono, na prática de atividades físicas ou no
+                cuidado com a saúde mental, pequenas mudanças podem fazer uma grande diferença em nossa qualidade de
+                vida.</p>
+        </section>
+
+        <section id="contato">
+            <div class="form-container">
+                <h1>Contato</h1>
+                <form action="/enviar-formulario" method="post">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" 
+                        required placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" 
+                        required placeholder="Seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" 
+                        required placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+
+            </div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </section>
+
+    </div>
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+
+</body>
+
+</html>
